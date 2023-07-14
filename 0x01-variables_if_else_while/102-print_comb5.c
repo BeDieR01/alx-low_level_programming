@@ -24,7 +24,7 @@ putchar(m);
 putchar(' ');
 putchar(b);
 putchar(v);
-if (m != 58 && v < 57 && n != 58 && b != 58)
+if (m != 58 && v < 58 && n != 58 && b != 58)
 {
 putchar(',');
 putchar(' ');
