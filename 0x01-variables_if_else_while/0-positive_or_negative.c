@@ -22,7 +22,7 @@ printf("%d is positive",n);
 }
 else
 {
-printf("%d is odd", n);
+printf("%d is negative", n);
 }
 return (0);
 }
