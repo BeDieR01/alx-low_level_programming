@@ -13,7 +13,7 @@ int v;
 
 for (n = 48; n < 58; n++)
 {
-for (m = 48; m < 57; m++)
+for (m = 48; m < 58; m++)
 {
 for (b = 48; b < 58; b++)
 {
@@ -24,7 +24,7 @@ putchar(m);
 putchar(' ');
 putchar(b);
 putchar(v);
-if (m < 57 && v < 57)
+if (m != 58 && v < 57 && n != 58 && b != 58)
 {
 putchar(',');
 putchar(' ');
