@@ -6,7 +6,7 @@
 	 * followed by a new line
 	 */
 
-	int _islower(int c)
+	void _islower(int c)
 	{
 	    if (c < 97)
             {
