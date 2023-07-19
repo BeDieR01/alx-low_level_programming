@@ -12,9 +12,14 @@
 			int j;
 			int m;
 			int n;
+			int max;
+			max = 57;
 			for (i = 48; i < 51; i++)
             {
-                for (j = 48; j < 52; j++)
+                if (i == 50){
+                    max = 52;
+                }
+                for (j = 48; j < max; j++)
                 {
                     for (m = 48; m < 54; m++)
                     {
