@@ -19,7 +19,7 @@
                 if (i == 50){
                     max = 52;
                 }
-                for (j = 48; j < max; j++)
+                for (j = 48; j <= max; j++)
                 {
                     for (m = 48; m < 54; m++)
                     {
