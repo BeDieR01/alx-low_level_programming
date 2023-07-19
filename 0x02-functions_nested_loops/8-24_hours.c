@@ -12,13 +12,13 @@
 			int j;
 			int m;
 			int n;
-			for (i = 0; i < 3; i++)
+			for (i = 48; i < 51; i++)
             {
-                for (j = 0; j < 4; j++)
+                for (j = 48; j < 52; j++)
                 {
-                    for (m = 0; m < 6; m++)
+                    for (m = 48; m < 54; m++)
                     {
-                        for (n = 0; n < 10; n++)
+                        for (n = 48; n <= 57; n++)
                         {
                             _putchar(i);
                             _putchar(j);
