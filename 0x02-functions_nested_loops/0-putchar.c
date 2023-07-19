@@ -1,13 +1,16 @@
 #include "main.h"
 	/**
 	 * main - print _putchar
+	 *
 	 * is written by mbah
+	 *
 	 * Return: 0
 	 */
-
-
 	int main(void)
 	{
+	/**
+	 * in the main function putchar prints a char every time
+	 */
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
